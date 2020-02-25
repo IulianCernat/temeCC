@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    {% block head %}
+    <title>APIs caller</title>
+    {% endblock %}
+
+</head>
+{% block body %}
+
+<div class="container">
+    <br/>
+    <div class="row justify-content-center">
+
+        <div class="col-sm-12 col-sm-10 col-lg-8">
+            <form role="form" class="card card-sm">
+                <div class="card-body row no-gutters align-items-center">
+                    <div class="col-auto">
+                        <i id="loading" class="fas fa-search h5 text-body"></i>
+
+                    </div>
+                    <!--end of col-->
+                    <div class="col-sm">
+                        <input type="text" id="content" class="form-control form-control-md form-control-borderless"
+                               type="search" placeholder="Search movies">
+
+                    </div>
+                    <!--end of col-->
+                    <div class="col-auto">
+                        <button id="searcher" class="btn btn-md btn-success">Search</button>
+
+                    </div>
+                    <!--end of col-->
+                </div>
+            </form>
+        </div>
+        <!--end of col-->
+    </div>
+</div>
+<div id="response">
+    <script type="text/javascript">
+        $("button#searcher").click(function () {
+            $('i#loading').html('<div class="spinner-border text-primary spinner-border-sm"></div>');
+            event.preventDefault();
+            $.ajax({
+                url: "/get_data/",
+                data: {content: $('#content').val()},
+                type: "POST",
+                dataType: 'json',
+                success: function (resp) {
+
+                    $('div#response').html(resp["output"]);
+                    $('i#loading').html('');
+                },
+                error: function (error) {
+                    console.log(error);
+                }
+
+            });
+        });
+    </script>
+
+</div>
+
+{% endblock %}
+
+
+</html>

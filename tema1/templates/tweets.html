@@ -1,0 +1,9 @@
+{% for tweet_index in set1 %}
+    <div class="jumbotron-fluid  mt-4 p-2" style="background-color: #e6e6e6;">
+        <p>{{set1[tweet_index]}}</p>
+        <p style="color: #177199; font-weight: bold;">Polarity: {{set2[tweet_index]}}</p>
+
+
+    </div>
+
+{% endfor %}

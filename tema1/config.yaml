@@ -1,0 +1,10 @@
+---
+OMDb_key : "e2ded80a"
+tweepy :
+  consumer_key : "wYGri3q6CbeoTxwt9NnwySgoY"
+  consumer_secret : "eynoIHJFZDfRkoL1VWL3uHVtyS5hbXLHnmmFnuQSoJZR4EHcvC"
+  access_token : "1186350005050843136-ypvQ7gtx2DdhJGv4LpHGFWs2ha22ZW"
+  access_token_secret : "pnAtCOCWpz39rCozYLRI3v4YOCEq0fFe5Sh8zTQdNzckR"
+aylien:
+  app_id : "97708fce"
+  API_key : "8e67014f9d0f871507dd44e5d007e32b"

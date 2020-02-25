@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container p-3 my-3  bg-light">
+    <div class="row justify-content-sm-left  ">
+        {% if "error" in set1 %}
+        <h2>{{set1["error"]}}</h2>
+        {% elif "not_found" in set1 %}
+        <h2>{{ set1["not_found"] }}</h2>
+        {% else %}
+        <div class="col-sm-4  bg-light ">
+
+            <img src={{set1["Poster"]}} class="rounded" alt="Cinque Terre">
+
+        </div>
+        <div class="col-sm-7 bg-light">
+            <ul>
+                {% for key, value in set2.items() %}
+                <li>{{key}} : {{value}}</li>
+                {% endfor %}
+                <li>Plot: {{set1["Plot"]}}</li>
+                <li style="color: #177199; font-weight: bold;">Polarity analysis: {{set3}}</li>
+
+
+            </ul>
+
+            <button id="generator" type="button" class="btn btn-primary">Get related tweets</button>
+            <div style="display:inline;" id="loading"></div>
+
+        </div>
+        <div id="tweets">
+        <script type="text/javascript">
+            $("button#generator").click(function () {
+                $('div#loading').html('<div class="spinner-border text-primary spinner-border-md"></div>');
+                event.preventDefault();
+                $.ajax({
+                    url: "/get_related_tweets/",
+                    data: {content: '{{set2["Title"]}}' + ' ' + '{{set2["Director"]}}'},
+                    type: "POST",
+                    dataType: 'json',
+                    success: function (resp) {
+
+                        $('div#tweets').empty().html(resp["output"]);
+                        $('div#loading').html('');
+                    },
+                    error: function (error) {
+                        console.log(error);
+                    }
+
+                });
+            });
+        </script>
+
+
+        {% endif %}
+
+
+
+
+</div>
+</body>
+</html>
