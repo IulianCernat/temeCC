@@ -39,3 +39,13 @@ INFO:app:method=GET path=/ status=200 duration=0.0 time=2020-02-25T12:21:39Z ip=
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 14:21:39] "[37mGET / HTTP/1.1[0m" 200 -
 INFO:app:method=GET path=/static/css/main.css status=304 duration=0.0 time=2020-02-25T12:21:40Z ip=127.0.0.1 host=127.0.0.1 params={}
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 14:21:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:method=GET path=/ status=200 duration=0.06 time=2020-02-25T18:36:12Z ip=127.0.0.1 host=127.0.0.1 params={}
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 20:36:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:method=GET path=/static/css/main.css status=304 duration=0.02 time=2020-02-25T18:36:13Z ip=127.0.0.1 host=127.0.0.1 params={}
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 20:36:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 20:36:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 20:36:17] "[1m[35mPOST /get_data/ HTTP/1.1[0m" 500 -
