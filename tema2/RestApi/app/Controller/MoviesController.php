@@ -55,7 +55,7 @@ class MoviesController extends Controller
     {
         $movie_model = new MoviesModel();
         $json = json_decode(file_get_contents('php://input'), True);
-        if (!($json = $this->validate_input_data($json))) {
+        if (!($json = $this->validate_input_data($json, false))) {
             http_response_code(400);
             return;
         }
