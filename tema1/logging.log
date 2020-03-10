@@ -49,3 +49,67 @@ INFO:app:method=GET path=/static/css/main.css status=304 duration=0.02 time=2020
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 20:36:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 20:36:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [25/Feb/2020 20:36:17] "[1m[35mPOST /get_data/ HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:method=GET path=/ status=200 duration=0.03 time=2020-03-07T16:37:14Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:37:14] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:method=GET path=/static/css/main.css status=200 duration=0.01 time=2020-03-07T16:37:14Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:37:14] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:37:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:method=POST path=/get_data/ status=200 duration=1.05 time=2020-03-07T16:37:21Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:37:21] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_related_tweets/ status=200 duration=13.73 time=2020-03-07T16:37:42Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:37:42] "[37mPOST /get_related_tweets/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=1.04 time=2020-03-07T16:41:42Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:41:42] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=1.08 time=2020-03-07T16:41:57Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:41:57] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=0.86 time=2020-03-07T16:42:05Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:42:05] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=1.04 time=2020-03-07T16:42:16Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:42:16] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=0.89 time=2020-03-07T16:42:40Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 18:42:40] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:method=GET path=/ status=200 duration=0.01 time=2020-03-07T19:58:23Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 21:58:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:method=GET path=/static/css/main.css status=200 duration=0.0 time=2020-03-07T19:58:23Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 21:58:23] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 21:58:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:method=POST path=/get_data/ status=200 duration=1.13 time=2020-03-07T19:58:27Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 21:58:27] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_related_tweets/ status=200 duration=0.37 time=2020-03-07T19:58:40Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 21:58:40] "[37mPOST /get_related_tweets/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=1.06 time=2020-03-07T19:59:01Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 21:59:01] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=0.93 time=2020-03-07T19:59:10Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 21:59:10] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:method=GET path=/ status=200 duration=0.01 time=2020-03-07T20:12:37Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 22:12:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:method=GET path=/static/css/main.css status=304 duration=0.0 time=2020-03-07T20:12:37Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 22:12:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 22:12:39] "[1m[35mPOST /get_data/ HTTP/1.1[0m" 500 -
+INFO:app:method=POST path=/get_data/ status=200 duration=0.77 time=2020-03-07T20:13:01Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 22:13:01] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 22:13:04] "[1m[35mPOST /get_data/ HTTP/1.1[0m" 500 -
+INFO:app:method=POST path=/get_data/ status=200 duration=1.01 time=2020-03-07T20:13:31Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [07/Mar/2020 22:13:31] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:method=GET path=/ status=200 duration=0.03 time=2020-03-08T15:31:34Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2020 17:31:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:method=GET path=/static/css/main.css status=200 duration=0.03 time=2020-03-08T15:31:34Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2020 17:31:34] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=0.87 time=2020-03-08T15:31:37Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [08/Mar/2020 17:31:37] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -

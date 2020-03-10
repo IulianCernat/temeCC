@@ -9,6 +9,7 @@ from aylienapiclient import textapi
 
 
 
+
 with open("config.yaml", "r") as file:
     configs = yaml.load(file, Loader=yaml.FullLoader)
 
