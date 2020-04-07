@@ -113,3 +113,30 @@ INFO:app:method=GET path=/static/css/main.css status=200 duration=0.03 time=2020
 INFO:werkzeug:127.0.0.1 - - [08/Mar/2020 17:31:34] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
 INFO:app:method=POST path=/get_data/ status=200 duration=0.87 time=2020-03-08T15:31:37Z ip=127.0.0.1 host=localhost params={}
 INFO:werkzeug:127.0.0.1 - - [08/Mar/2020 17:31:37] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:app:method=GET path=/ status=200 duration=0.02 time=2020-03-23T14:54:02Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [23/Mar/2020 16:54:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:app:method=GET path=/static/css/main.css status=200 duration=0.04 time=2020-03-23T14:54:03Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [23/Mar/2020 16:54:03] "[37mGET /static/css/main.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Mar/2020 16:54:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:method=POST path=/get_data/ status=200 duration=0.99 time=2020-03-23T14:54:08Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [23/Mar/2020 16:54:08] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_related_tweets/ status=200 duration=7.4 time=2020-03-23T14:54:19Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [23/Mar/2020 16:54:19] "[37mPOST /get_related_tweets/ HTTP/1.1[0m" 200 -
+INFO:app:method=POST path=/get_data/ status=200 duration=0.76 time=2020-03-23T16:12:33Z ip=127.0.0.1 host=localhost params={}
+INFO:werkzeug:127.0.0.1 - - [23/Mar/2020 18:12:33] "[37mPOST /get_data/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 336-390-040
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
