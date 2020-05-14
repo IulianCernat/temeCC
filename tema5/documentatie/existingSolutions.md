@@ -22,7 +22,7 @@ Each service offered is called a "gig".
 ## Used Technologies
 **Programming languages:**
 
- <img src="../images/technologiesIcons/node.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/node.png"  width="15%" height="15%">
  <img src="../images/technologiesIcons/python.png"  width="15%" height="15%">
  <img src="../images/technologiesIcons/ruby.png"  width="15%" height="15%">
  <img src="../images/technologiesIcons/react.png"  width="15%" height="15%">
