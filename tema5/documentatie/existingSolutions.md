@@ -23,31 +23,31 @@ Each service offered is called a "gig".
 **Programming languages:**
 
  <img src="images/technologiesIcons/node.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/python.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/ruby.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/react.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/golang.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/python.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/ruby.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/react.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/golang.png"  width="15%" height="15%">
  
 **Persistence:**
 
- <img src="../images/technologiesIcons/mysql.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/redis.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/mdb.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/elastic.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/dynamo.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/mysql.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/redis.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/mdb.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/elastic.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/dynamo.png"  width="15%" height="15%">
  
 **Messaging and Data integration:**
 
-<img src="../images/technologiesIcons/kafka.png"  width="15%" height="15%">
-<img src="../images/technologiesIcons/rabbitmq.png"  width="15%" height="15%">
+<img src="images/technologiesIcons/kafka.png"  width="15%" height="15%">
+<img src="images/technologiesIcons/rabbitmq.png"  width="15%" height="15%">
 
 **DevOps:**
 
- <img src="../images/technologiesIcons/docker.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/jenkins.jpeg"  width="15%" height="15%">
- <img src="../images/technologiesIcons/aws.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/kubernetes.png"  width="15%" height="15%">
- <img src="../images/technologiesIcons/circleci.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/docker.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/jenkins.jpeg"  width="15%" height="15%">
+ <img src="images/technologiesIcons/aws.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/kubernetes.png"  width="15%" height="15%">
+ <img src="images/technologiesIcons/circleci.png"  width="15%" height="15%">
 
 ## Architecture
 **Chimera**
