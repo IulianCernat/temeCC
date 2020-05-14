@@ -2,7 +2,7 @@
 ---
 ## Fiverr
 <a href="https:/www.fiverr.com/">
-    <img src="../images/technologiesIcons/fiverr.jpg"  width="20%" height="20%">
+    <img src="images/technologiesIcons/fiverr.jpg"  width="20%" height="20%">
   </a>
 
 Fiverr.com was founded by two young entrepreneurs from Israel. 
